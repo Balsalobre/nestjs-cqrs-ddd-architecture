@@ -1,0 +1,23 @@
+[
+  {
+    "customerId": "1",
+    "shippingAddress": {
+      "street": "1234 Main St",
+      "city": "Springfield",
+      "postalCode": "12345"
+    },
+    "orderItems": [
+      {
+        "productId": "1",
+        "unitPrice": 100,
+        "quantity": 1
+      }
+    ],
+    "discounts": [
+      {
+        "type": "percentage",
+        "value": 10
+      }
+    ]
+  }
+]
