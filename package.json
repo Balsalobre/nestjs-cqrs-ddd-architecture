@@ -1,7 +1,7 @@
 {
-  "name": "nestjs-cqrs-ddd-architecture",
+  "name": "ludileter",
   "version": "0.0.1",
-  "description": "Example for NestJS, CQRS, DDD, EventSourcing, REST api, PostgreSQL, DynamoDB, EventStoreDB",
+  "description": "Ludileter API NestJS, CQRS, DDD, EventSourcing, REST api, PostgreSQL, DynamoDB, EventStoreDB",
   "author": "Carlos Balsalobre Orenes",
   "private": true,
   "license": "MIT",
