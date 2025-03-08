@@ -9,7 +9,7 @@ async function bootstrap() {
     .setTitle('Ludileter API')
     .setDescription('The Ludileter API description')
     .setVersion('1.0')
-    .addTag('portfolio')
+    .addTag('Ludileter app')
     .build();
 
   const documentFactory = () => SwaggerModule.createDocument(app, config);

@@ -13,7 +13,10 @@ export class Order extends AggregateRootWithId {
   public discounts: Discount[] = [];
   public status: OrderStatus = 'Pending';
   public createdAt: Date;
-  constructor(public readonly id: string, public readonly customerId: string) {
+  constructor(
+    public readonly id: string,
+    public readonly customerId: string,
+  ) {
     super();
   }
   addOrderItem(orderItem: OrderItem) {
